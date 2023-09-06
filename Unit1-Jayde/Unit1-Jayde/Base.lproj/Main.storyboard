@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2yk-ny-x3Q">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Hey it's Jayde!-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Unit1_Jayde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="dNQ-NC-PzZ">
+                                <rect key="frame" x="95.666666666666686" y="113" width="202" height="490"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="d6l-83-kA4">
+                                        <rect key="frame" x="0.0" y="0.0" width="202" height="225"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Me" translatesAutoresizingMaskIntoConstraints="NO" id="dCe-07-EAj">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="225"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="225" id="eUZ-bD-2QD"/>
+                                            <constraint firstAttribute="width" constant="202" id="wxT-3E-Y3y"/>
+                                        </constraints>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YN-Li-AJv">
+                                        <rect key="frame" x="0.0" y="276" width="202" height="36"/>
+                                        <color key="backgroundColor" red="0.89000000000000001" green="0.64748426879999998" blue="0.83668566259999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="My Story">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="idj-cp-IJs" appends="YES" id="B7f-KJ-DZd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZ6-Lw-9zV">
+                                        <rect key="frame" x="0.0" y="363" width="202" height="38"/>
+                                        <color key="backgroundColor" red="0.89000000000000001" green="0.528174319" blue="0.83351672430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="My Hobbies">
+                                            <backgroundConfiguration key="background"/>
+                                            <fontDescription key="titleFontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="FT2-qJ-pp3" appends="YES" id="fQR-ts-rZy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khv-MO-XyJ">
+                                        <rect key="frame" x="0.0" y="452" width="202" height="38"/>
+                                        <color key="backgroundColor" red="0.89000000000000001" green="0.1073513442" blue="0.79385889809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="My Dog">
+                                            <fontDescription key="titleFontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Tw8-xc-krr" appends="YES" id="Zh4-30-cZz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.89000000000000001" green="0.78254984839999997" blue="0.84602377129999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="dNQ-NC-PzZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JWs-hS-RcT"/>
+                            <constraint firstItem="dNQ-NC-PzZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Z8g-zg-eqj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hey it's Jayde!" id="oTs-td-Fax"/>
+                    <connections>
+                        <segue destination="qit-q6-EDn" kind="show" identifier="detailSegue" id="uoN-ht-NWL"/>
+                        <segue destination="fc1-AN-1IR" kind="show" identifier="detailSegue2" id="QOo-3t-Mjo"/>
+                        <segue destination="1fn-h4-r7v" kind="show" identifier="detailSegue3" id="2Ji-cn-0TC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="idj-cp-IJs">
+                    <connections>
+                        <action selector="userTap:" destination="BYZ-38-t0r" id="Kgo-HB-S2i"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="FT2-qJ-pp3">
+                    <connections>
+                        <action selector="userTap2:" destination="BYZ-38-t0r" id="0Pz-Hp-q2w"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Tw8-xc-krr">
+                    <connections>
+                        <action selector="userTap3:" destination="BYZ-38-t0r" id="wpF-NB-ett"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1028.2442748091603" y="3.5211267605633805"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="tbV-y2-BC0">
+            <objects>
+                <viewController id="qit-q6-EDn" customClass="DetailViewController" customModule="Unit1_Jayde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="AU0-a4-4gL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="Sp9-BX-XN2">
+                                <rect key="frame" x="84" y="150" width="202" height="618.66666666666663"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="iTZ-tf-xvi">
+                                        <rect key="frame" x="0.0" y="0.0" width="202" height="21.666666666666668"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jayde Shaw 🩷" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVo-XP-Ljy">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="21.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RiT-7R-10S">
+                                        <rect key="frame" x="0.0" y="65.666666666666657" width="202" height="224.99999999999997"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Me" translatesAutoresizingMaskIntoConstraints="NO" id="s3V-zb-NuH">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="225"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="202" id="Rub-q5-XF5"/>
+                                            <constraint firstAttribute="height" constant="225" id="cQk-mp-ant"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PRx-hD-YnQ">
+                                        <rect key="frame" x="0.0" y="334.66666666666669" width="202" height="284.00000000000006"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="t6i-QN-Ni6">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="284"/>
+                                                <color key="backgroundColor" red="0.89000000000000001" green="0.64748426879999998" blue="0.83668566259999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <mutableString key="text">I grew up in Middletown, CT, a small but vibrant town nestled in New England's heart.  It wasn't until college that I discovered my passion for STEM fields, particularly computer science. My decision was influenced by the inspiring stories and insights shared by YouTubers who had ventured into the world of coding and technology. To me, life is a canvas waiting to be painted, and I firmly believe in living it to the fullest, savoring every moment, and creating a masterpiece of our own existence. ✨</mutableString>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="10"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="618.66999999999996" id="ScZ-qK-poy"/>
+                                    <constraint firstAttribute="width" constant="202" id="fgx-gC-qCi"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xXB-sm-CDi"/>
+                        <color key="backgroundColor" red="0.89000000000000001" green="0.64748426879999998" blue="0.83668566259999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sp9-BX-XN2" firstAttribute="top" secondItem="xXB-sm-CDi" secondAttribute="top" constant="47" id="HyY-eN-4Uy"/>
+                            <constraint firstItem="Sp9-BX-XN2" firstAttribute="centerY" secondItem="AU0-a4-4gL" secondAttribute="centerY" id="XZ9-SU-bjc"/>
+                            <constraint firstItem="Sp9-BX-XN2" firstAttribute="leading" secondItem="xXB-sm-CDi" secondAttribute="leading" constant="84" id="eyv-4N-Ko0"/>
+                            <constraint firstItem="xXB-sm-CDi" firstAttribute="trailing" secondItem="Sp9-BX-XN2" secondAttribute="trailing" constant="84" id="oVl-7j-exb"/>
+                            <constraint firstItem="Sp9-BX-XN2" firstAttribute="centerX" secondItem="AU0-a4-4gL" secondAttribute="centerX" id="uRg-0b-nBc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="MiC-dc-S9g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3qr-eo-jbk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1733.5877862595419" y="20.422535211267608"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="HOY-to-eva">
+            <objects>
+                <viewController id="fc1-AN-1IR" customClass="DetailViewController" customModule="Unit1_Jayde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U1a-GP-PSa">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="FUr-2E-Mv7">
+                                <rect key="frame" x="84" y="132" width="202" height="618.66666666666663"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8VE-Cj-79I">
+                                        <rect key="frame" x="0.0" y="0.0" width="202" height="21.666666666666668"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooking 👩🏽‍🍳" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iT3-MY-dvO">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="21.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="M8T-RO-sbn">
+                                        <rect key="frame" x="0.0" y="46.666666666666657" width="202" height="224.99999999999997"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hobby" translatesAutoresizingMaskIntoConstraints="NO" id="alL-eZ-pnh">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="225"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="225" id="FYP-UX-vtc"/>
+                                                    <constraint firstAttribute="width" constant="202" id="hGV-eJ-SZu"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="T0R-Hf-ysq">
+                                        <rect key="frame" x="0.0" y="296.66666666666669" width="202" height="322.00000000000006"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="q1H-l6-eU2">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="322"/>
+                                                <color key="backgroundColor" red="0.89000000000000001" green="0.528174319" blue="0.83351672430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <mutableString key="text">Say hello to the incredible jackfruit sandwich, a delightful take on the classic Philly cheesesteak! The secret recipe for a fantastic vegan dish? It's all about the marinade and those mouthwatering seasonings. Remember, even meat needs a little love in the form of spices to truly shine. So, when you're in doubt about meatless meals, just remember: flavor is the key to turning any imitation into a culinary masterpiece! Enjoy the savory goodness without the meaty doubts! 🌱</mutableString>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="620" id="Xkd-Bz-bM8"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WoY-00-qbh"/>
+                        <color key="backgroundColor" red="0.89000000000000001" green="0.528174319" blue="0.83351672430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FUr-2E-Mv7" firstAttribute="top" secondItem="WoY-00-qbh" secondAttribute="top" constant="47" id="9Dx-Yv-ZGC"/>
+                            <constraint firstItem="WoY-00-qbh" firstAttribute="trailing" secondItem="FUr-2E-Mv7" secondAttribute="trailing" constant="84" id="EZi-Y6-gJV"/>
+                            <constraint firstItem="WoY-00-qbh" firstAttribute="bottom" secondItem="FUr-2E-Mv7" secondAttribute="bottom" constant="67.329999999999998" id="gww-zz-ACY"/>
+                            <constraint firstItem="FUr-2E-Mv7" firstAttribute="leading" secondItem="WoY-00-qbh" secondAttribute="leading" constant="84" id="p3M-0q-zvD"/>
+                            <constraint firstItem="WoY-00-qbh" firstAttribute="bottom" secondItem="FUr-2E-Mv7" secondAttribute="bottom" constant="85" id="stQ-sN-5Vv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SBx-FK-n53"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eyz-ZT-5W5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2370.2290076335876" y="38.732394366197184"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="mOR-rX-Bg1">
+            <objects>
+                <viewController id="1fn-h4-r7v" customClass="DetailViewController" customModule="Unit1_Jayde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aG8-th-FRM">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="wE9-0Q-hmW">
+                                <rect key="frame" x="84" y="150" width="202" height="543"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="n8O-xa-h3q">
+                                        <rect key="frame" x="0.0" y="0.0" width="202" height="21.666666666666668"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zih 🐕‍🦺" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r33-o8-6EB">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="21.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HDd-pU-hKb">
+                                        <rect key="frame" x="0.0" y="42.666666666666657" width="202" height="224.99999999999997"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zih" translatesAutoresizingMaskIntoConstraints="NO" id="MH2-oK-cu5">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="225"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="202" id="Ehc-6l-eGH"/>
+                                            <constraint firstAttribute="height" constant="225" id="Zhh-bJ-hXZ"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="OkF-CF-OoM">
+                                        <rect key="frame" x="0.0" y="288.66666666666669" width="202" height="254.33333333333331"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="B0U-Ob-0oa">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="254.33333333333334"/>
+                                                <color key="backgroundColor" red="0.89000000000000001" green="0.1073513442" blue="0.79385889809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <mutableString key="text">Zih, my delightful Shih-Poo, is about to celebrate her first birthday on September 6th! With boundless energy and an outgoing spirit, she brings endless joy to my life. Zih's zest for life keeps me grounded and overflows my heart with happiness. Here's to many more years of love and laughter with my furry best friend! 🐾🎂</mutableString>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FIk-eU-ufT"/>
+                        <color key="backgroundColor" red="0.89000000000000001" green="0.1073513442" blue="0.79385889809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wE9-0Q-hmW" firstAttribute="top" secondItem="FIk-eU-ufT" secondAttribute="top" constant="47" id="4jK-9g-Hoz"/>
+                            <constraint firstItem="wE9-0Q-hmW" firstAttribute="centerY" secondItem="aG8-th-FRM" secondAttribute="centerY" id="80v-Te-71n"/>
+                            <constraint firstItem="FIk-eU-ufT" firstAttribute="trailing" secondItem="wE9-0Q-hmW" secondAttribute="trailing" constant="84" id="FOQ-6j-ShO"/>
+                            <constraint firstItem="FIk-eU-ufT" firstAttribute="bottom" secondItem="wE9-0Q-hmW" secondAttribute="bottom" constant="125" id="P8P-3Y-BMe"/>
+                            <constraint firstItem="wE9-0Q-hmW" firstAttribute="centerX" secondItem="aG8-th-FRM" secondAttribute="centerX" id="cIN-26-A3k"/>
+                            <constraint firstItem="wE9-0Q-hmW" firstAttribute="leading" secondItem="FIk-eU-ufT" secondAttribute="leading" constant="84" id="nIB-AF-i1G"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4F4-En-XCt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wmR-mF-dXK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3019.0839694656488" y="55.633802816901408"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="waL-4J-M4S">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2yk-ny-x3Q" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kp4-BG-8eR">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="HpE-D1-fNT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8zx-db-7eo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Hobby" width="3024" height="4032"/>
+        <image name="Me" width="1251" height="1627"/>
+        <image name="Zih" width="1170" height="2080"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
